@@ -1,0 +1,4 @@
+return ( 2 + 4 ) * 4;
+
+a = 4;
+return a;

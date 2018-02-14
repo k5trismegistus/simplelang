@@ -1,0 +1,10 @@
+a = 5;
+
+def func ( b , c ) {
+  a = 4;
+  return a + b * c;
+}
+
+c =  func [ 2 , 4 ];
+
+return c;
