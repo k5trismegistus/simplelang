@@ -1,0 +1,15 @@
+a = 5;
+
+def funcone ( b , c ) {
+  a = 4;
+  return a + b * c;
+}
+
+def functwo ( ) {
+  a = 4;
+  return funcone [ 2 , 4 ];
+}
+
+c =  functwo [ ];
+
+return c;
